@@ -1,0 +1,108 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: #EEEFF1;
+}
+
+nav h1, nav a {
+    color: #34547A;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+h4 {
+    font-weight:normal;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 200px 100px;
+    gap: 130px;
+}
+
+header .text {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 400px;
+}
+
+#logo {
+    margin: 0;
+    font-family: 'Revalia', cursive;
+    font-size: 48px;
+}
+
+#nav-buttons {
+    display: flex;
+    gap: 40px;
+}
+
+#rect-button {
+    font-weight: 300;
+
+    text-decoration: none;
+    color: white;
+
+    width:fit-content;
+
+    background-color: #34547A;
+    padding: 15px 30px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding: 100px 300px;
+    text-align: center;
+
+    align-items: center;
+    background-color: white;
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+
+    background-color: #34547A;
+}
+
+#project {
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+#metadata {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
